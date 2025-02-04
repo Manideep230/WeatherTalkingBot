@@ -18,7 +18,7 @@ nltk.download('averaged_perceptron_tagger')
 engine = pyttsx3.init()
 
 # Configure Google AI SDK
-genai.configure(api_key="AIzaSyC0-y4hBELFWmSUS_ZKgfCh41EwLGKzax0")
+genai.configure(api_key="Your_API_Key")
 
 # Create the model
 generation_config = {
